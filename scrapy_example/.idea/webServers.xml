@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7a04b646-b6e5-4045-9afb-d6ba983ce5e4" name="123.60.105.39" url="http://123.60.105.39">
+        <fileTransfer rootFolder="/root/scrapy_example" accessType="SFTP" host="123.60.105.39" port="22" sshConfigId="32f5a41b-4f7e-4d45-bfdc-c43ed0739afb" sshConfig="root@123.60.105.39:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
