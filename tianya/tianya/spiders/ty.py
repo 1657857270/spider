@@ -37,7 +37,7 @@ class TySpider(scrapy.Spider):
         )
 
 
-    def parse_detail(self, resp, **kwargs):
+    def parse_detail(self, resp, ):
 
         t = TianyaItem()
         title = resp.xpath("//*[@id='post_head']/h1/span[1]/span/text()").extract_first()

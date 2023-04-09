@@ -5,8 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/tianya" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tianya2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/wangxiao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/my_scrapy" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
