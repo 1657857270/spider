@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "escodegen": "^2.0.0",
+    "escope": "^4.0.0",
+    "esprima": "^4.0.1",
+    "iconv-lite": "^0.6.3"
+  }
+}
