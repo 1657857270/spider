@@ -49,12 +49,12 @@ def base64_api(uname, pwd, img, typeid):
 
 
 def login():
-    verify_url = "https://admin.ttshitu.com/captcha_v2"
+    verify_url = "https://admin.ttshitu.com/login"
     session = requests.session()
     resp = session.get(verify_url)
     # print(resp.text)
     img = resp.json()
-    result = base64_api("167857270", "a15534217839", img['img'], 3)
+    result = base64_api("zhanghao", "mima", img['img'], 3)
     print(result)
 
     login_url = "https://admin.ttshitu.com/common/api/login/user"  # post
