@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/scrapytutorial" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/caipiao" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/game" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xjb" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

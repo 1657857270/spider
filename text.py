@@ -1,4 +1,2 @@
-a = 2
-a = 4
-a = 6
-print(a+a+a)
+a = list((1, 1, 2, 3))
+print(a)
