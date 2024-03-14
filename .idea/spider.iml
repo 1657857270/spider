@@ -13,6 +13,9 @@
       <sourceFolder url="file://$MODULE_DIR$/caipiao" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/game" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/xjb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mrmy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mianshi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shetu_image_download" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -11,3 +11,8 @@ from itemadapter import ItemAdapter
 class XjbPipeline:
     def process_item(self, item, spider):
         return item
+
+    def open_spider(self,spider):
+        pass
+    def close_spider(self,spider):
+        pass

@@ -5,6 +5,9 @@ class ExampleSpider(scrapy.Spider):
     name = 'example'
     # allowed_domains = ['example.com']
     start_urls = ['https://book.douban.com/tag/%E5%B0%8F%E8%AF%B4?start=20&type=T']
+    def start_requests(self):
+        yield scrapy.Request(callback=self.parse,method='GET',meta={"python":1})
+
 
     def parse(self, response):
         item = XjbItem()
